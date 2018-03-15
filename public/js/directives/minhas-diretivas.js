@@ -25,7 +25,7 @@ angular.module('minhasDiretivas', [])
             titulo: '@'
         }
 
-        ddo.template = '<img class="img-responsive center-block" ng-src="{{url}}" alt="{{titulo}}">';
+        ddo.template = '<img class="img-responsive center-block" src="{{url}}" alt="{{titulo}}">';
 
         return ddo;
     });
