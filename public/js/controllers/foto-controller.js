@@ -31,7 +31,7 @@ angular.module('alurapic').controller('FotoController', function($scope, $http, 
                     $scope.mensagem = dados.mensagem;
                     if (dados.inclusao)
                         $scope.foto = {};
-                    $scope.focado = true;
+                    // $scope.$broadcast('fotoCadastrada');
                     $scope.formulario.$setPristine();
 
                 })
